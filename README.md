@@ -24,14 +24,14 @@
     并使用数码管、字模等完成对外输出
 
 ## 文件结构
+    industrial-sorting/
+    ├── ov5640_hdmi_sobel.srcs/
+    │   ├── constrs_1/new/pin.xdc                //fpga管脚定义文件
+    │   └── sources_1/         
+    │       ├── ip                               //fpga使用的ip核
+    │       └── new                              //fpga项目中开发实际.v文件
+    ├── rtl/                                     //fpga项目优化完成的代码
+    ├── XHB/                                     //stm32源文件
+    ├── LICENSE
+    └── README.md
 
-industrial-sorting/
-├── ov5640_hdmi_sobel.srcs/
-│   ├── constrs_1/new/pin.xdc                //fpga管脚定义文件
-│   └── sources_1/         
-│       ├── ip                               //fpga使用的ip核
-│       └── new                              //fpga项目中开发实际.v文件
-├── rtl/                                     //fpga项目优化完成的代码
-├── XHB/                                     //stm32源文件
-├── LICENSE
-└── README.md
